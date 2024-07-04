@@ -63,7 +63,7 @@ font-family: 'Whisper', cursive;
 
 /******************************************ACIMA SESSÃO HOME********************************************************/
 .us{
-background-color: #f502fd85;
+background-color: #f502fd4f;
 margin: -44px -8px 0 -8px;
 }
 
@@ -94,7 +94,7 @@ article p{
 
 .feed-backs{
  
-background-color: #f502fd85;
+background-color: #f502fd4f;
 margin: -40px -8px 0 -8px;
 }
 
@@ -150,7 +150,7 @@ margin: -40px -8px 0 -8px;
 /*********************************************ACIMA SESSÃO FEED-BACKS************************************************/
 .proc-container{
     padding-top: 30px;
-    background-color: #f502fd85;
+    background-color: #f502fd4f;
     margin:0 -8px
 }
 
@@ -182,7 +182,7 @@ margin: -40px -8px 0 -8px;
     margin:15px 0;
     width: 115px;
     line-height: 20pt;
-    background-color:#f502fd85;
+    background-color:#f502fd4f;
     cursor: pointer;
     border-radius: 10px;
 }
@@ -278,17 +278,31 @@ margin-top: -50px;
 .footer-container{
     display: flex;
     align-items: center;
-    background-color: #ed6df15b;
+    background-color: #473d4773;
+    justify-content:space-evenly
     
 }
 
 .map{
-    width: 70%;
+    padding: 8px 0 8px 0;
+}
+
+.footer-text ul{
+    list-style-type: none;
+}
+
+.footer-text li{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    line-height:20pt;
+    font-size: 20px
 }
 
 .social img{
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 0 20px 0 0 ;
 }
 /****************************ACIMA SESSÃO FOOTER**********************************/
 
@@ -316,6 +330,24 @@ margin-top: -50px;
         display:none
     }
     .call-container h2{
+        text-align: center;
+    }
+}
+
+
+/********************ABAIXO QUERIES SESSÃO FOOTER*****************************/
+
+@media screen and (max-width:970px){
+    .map {
+        display: none;
+    }
+
+    .footer-text li{
+        text-align: center;
+    }
+
+    .social{
+        margin: auto;
         text-align: center;
     }
 }
