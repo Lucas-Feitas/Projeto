@@ -21,10 +21,12 @@ let button1 = document.getElementById("text1"),
     }
 /*********ACIMA SISTEMA DE TROCA DE CONTEÚDO DOS PROCEDIMENTOS *****************/
 
-const image = document.getElementById("img");
-let imgx = document.querySelectorAll("#img img");
-let start = 0
+var lista = document.getElementById("lista");
 
-function right(image){
-    imgx++
+function aparecer(){
+    if (lista.style.display == "none"){
+        lista.style.display = "block"
+    } else {
+        lista.style.display = "none"
+    }
 }

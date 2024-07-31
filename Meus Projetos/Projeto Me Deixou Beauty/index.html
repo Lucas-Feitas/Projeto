@@ -30,17 +30,33 @@
 
             <img src="imagens/sala-make.jpg" alt="salao">
             <div class="imagem-logo"><img src="imagens/logo-beauty.jpeg" alt="logo"></div>
+            <div class="menu-resp" onclick="aparecer()"><img src="imagens/menu-aberto.png"></div>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </div>    
-    
+        <div class="menu-hidden">
+            <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#serviços">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+        </div>
+        <div class="menu-responsivo">
+        <ul id="lista">
+            <li><a href="#">Home</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </div>
     </header>
 
-    <section class="us">
+    <section class="us" id="sobre">
         <article>
             <h3>Sobre Nós</h3>
             <p>
@@ -109,7 +125,7 @@
         </div><!--FEED CONTAINER-->
     </section><!--FEED-BACKS-->
 
-    <section class="proc-container">
+    <section class="proc-container" id="serviços">
 
         <h3>Conheça Nossos Serviços</h3>
         <div class="procedimentos-container">
@@ -187,7 +203,7 @@
         </div>
         
     </section>
-    <section class="footer-container">
+    <section class="footer-container" id="contato">
         <div class="map">
             <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Rua%20santa%20clara,%20390%20Santo%20Andr%C3%A9+(Mapa)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-generator.com/pt'>-</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=63a6ff50987e948213fb28a90915ef33e221b2c3'></script>
         </div>
